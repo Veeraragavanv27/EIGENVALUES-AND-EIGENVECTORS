@@ -1,0 +1,5 @@
+#RegisterNumber:23004739
+import numpy as np
+a=np.array([[2,-3,0],[2,-5,0],[0,0,3]])
+b,c=np.linalg.eig(a)
+print("Eigen values are {} and Eigen Vectors are {}".format(b,c))
